@@ -2,6 +2,6 @@ tasks:
   - name: prepare
     init: |
       pip install --upgrade pip
-      pip install requirements.txt
+      pip install runtime.txt
     command: |
       echo "Welcome"
