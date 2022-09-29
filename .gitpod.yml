@@ -5,3 +5,12 @@ tasks:
       pip install runtime.txt
     command: |
       echo "Welcome"
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: true
