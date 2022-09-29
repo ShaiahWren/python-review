@@ -2,7 +2,7 @@ tasks:
   - name: prepare
     init: |
       pip install --upgrade pip
-      pip install runtime.txt
+      pip install -r runtime.txt
     command: |
       echo "Welcome"
 github:
